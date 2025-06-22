@@ -1,0 +1,22 @@
+@use "./nullstyle";
+@use "./vars" as vars;
+
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-color: vars.$bg-color;
+  color: vars.$primary-color;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main {
+  overflow-x: hidden;
+  flex: 1 1 auto;
+}
