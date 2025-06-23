@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://github.com/Hromsi/SEO-Brand-Blog/sitemap.xml
+Sitemap: https://hromsi.github.io/SEO-Brand-Blog/sitemap.xml
