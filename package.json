@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server src",
+    "start": "live-server",
     "sass": "sass styles/scss:styles/css --watch --no-source-map"
   },
   "keywords": [],
