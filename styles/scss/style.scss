@@ -64,16 +64,20 @@ body {
 }
 
 .navMenu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  column-gap: 40px;
-
   width: 100%;
 
-  @media (width <= vars.$breakpoint-md) {
-    column-gap: 20px;
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    column-gap: 40px;
+
+    width: 100%;
+
+    @media (width <= vars.$breakpoint-md) {
+      column-gap: 20px;
+    }
   }
   
   &__item {

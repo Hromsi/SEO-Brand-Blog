@@ -144,6 +144,9 @@ body {
 }
 
 .navMenu {
+  width: 100%;
+}
+.navMenu__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +154,7 @@ body {
   width: 100%;
 }
 @media (width <= 797px) {
-  .navMenu {
+  .navMenu__list {
     column-gap: 20px;
   }
 }
